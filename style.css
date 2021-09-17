@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+
+    box-sizing: border-box;
+}
+
+#container{
+   
+    background-image: url("images/notes.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+    
+}
+
+.heading {
+  height: 2cm;
+}
+
+h1{
+   font-size: 2cm; 
+   font-family: 'Dancing Script', cursive;
+    margin-left: 10px;
+}
+
+.heading h1 i{
+    font-size: 1cm;
+    justify-content: center;
+    margin: 1cm;
+}
+
+.addNote{
+    display: flex;
+    justify-content: end;
+
+}
+
+.addNote button{
+    height: 1.3cm;
+    width: 6cm;
+    margin: 5px;
+    background-color: rgb(99, 172, 132);
+    border-radius: 10px;
+    font-size: .5cm;
+    border: none;
+    cursor: pointer;
+}
+
+
+.note{
+    background-color: rgb(99, 172, 132);
+    height: 5cm;
+    width: 10cm;
+    box-shadow: 2px 4px 2px 1px rgb(37, 21, 0);
+    display: inline-block;
+    margin: .5cm;
+
+}
+.note:hover{
+    background-color:rgb(202, 223, 211);
+}
+
+.edit{
+    
+    font-size: .7cm;
+    color: rgb(92, 77, 15);
+    border: none;
+    background-color: rgb(146, 206, 173);
+    margin: 5px;
+    cursor: pointer;
+}
+
+.delete{
+    font-size: .7cm;
+    color: rgb(92, 77, 15);
+    border: none;
+    background-color: rgb(146, 206, 173);
+    cursor: pointer;
+}
+
+.heading button i{
+    font-size: .7cm;
+}
+
+textarea{
+    height: 3cm;
+    width: 7cm;
+    margin: 3px;
+    border: none;
+    background-color: rgb(99, 172, 132);
+    outline: none;
+}
+
+.hidden{
+    visibility: hidden;
+}
